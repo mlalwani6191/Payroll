@@ -84,6 +84,7 @@ defined('EXIT_DATABASE')       OR define('EXIT_DATABASE', 8); // database error
 defined('EXIT__AUTO_MIN')      OR define('EXIT__AUTO_MIN', 9); // lowest automatically-assigned error code
 defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest automatically-assigned error code
 
+//Custom Constants
 define('GENERAL_EXCEPTION', '**********There was some error processing your request, please contact support for more information**********');
 define('BONUS_DATE',15);
 define('NEXT_BONUS_DATE','wednesday');
